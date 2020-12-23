@@ -1,3 +1,5 @@
+# Azure Festive Hackathon Submission
+
 The kind people over at [Intercept](https://hackathon.cloudadventures.org/) organised a Christmas themed hackathon for December. 
 
 I saw this as a fun opportunity to refamiliarise myself with Azure. In a previous life I pretty much dealt only with Azure infrastructure before going on to work with primarily AWS organisations. A full list of the solution requirements can be found [here](https://hackathon.cloudadventures.org/Requirements).
@@ -7,7 +9,7 @@ Special thanks to [@whaakman](https://twitter.com/whaakman) for putting it toget
 ### Solution Architecture
 
 <p align="center">
-  <img src="/images/azure-festive-hackathon/solution-diagram.png">
+  <img src="./img/solution-diagram.png">
 </p>
 
 ### Hosting and scaling
