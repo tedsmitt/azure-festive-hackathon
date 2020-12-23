@@ -1,8 +1,3 @@
----
-title: "Azure Festive Tech Calendar Hackathon"
-date: "2020-12-17"
----
-
 The kind people over at [Intercept](https://hackathon.cloudadventures.org/) organised a Christmas themed hackathon for December. 
 
 I saw this as a fun opportunity to refamiliarise myself with Azure. In a previous life I pretty much dealt only with Azure infrastructure before going on to work with primarily AWS organisations. A full list of the solution requirements can be found [here](https://hackathon.cloudadventures.org/Requirements).
@@ -102,7 +97,7 @@ Our terraform and container image is deployed using Github Actions. After you pu
 Once the image has been successfully pushed, the app services should pull the container image soon afterwards and serve the application. To find out your traffic manager URL you can either go to the `apply-terraform` Job in the Github Workflow and at the end of the "Apply terraform" step, terraform will have output the Traffic Manager URL.
 
 <p align="center">
-  <img width="800px" src="/images/azure-festive-hackathon/traffic-manager-output.png">
+  <img width="800px" src="./img/traffic-manager-output.png">
 </p>
 
 Alternatively you can look at the resource in the Azure Portal and get it from the Traffic Manager profile resource.
@@ -112,7 +107,7 @@ You can freely add and remove regions to the variable map and upon pushing the c
 ## Cleaning up 🧹
 1. Run the __Destroy environment__ workflow. This can be manually invoked by selecting the Run workflow button after selecting the workflow.
 <p align="center">
-  <img src="/images/azure-festive-hackathon/destroy.png">
+  <img src="./img/destroy.png">
 </p>
 
 2. Once the above workflow has successfully run, then you will need to clean up the resources that we created manually. You can paste the following code:
